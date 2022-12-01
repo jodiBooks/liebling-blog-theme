@@ -5,7 +5,7 @@
     "url": "https://eduardogomez.io"
   },
   "config": {
-    "posts_per_page": 10,
+    "posts_per_page": 12,
     "card_assets": {
       "exclude": ["bookmark", "gallery"]
     },
