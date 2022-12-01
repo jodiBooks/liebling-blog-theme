@@ -59,5 +59,6 @@
   },
   "optionalDependencies": {
     "win-node-env": "^0.4.0"
-  }
+  },
+  "packageManager": "yarn@3.3.0"
 }
