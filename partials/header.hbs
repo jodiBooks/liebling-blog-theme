@@ -4,7 +4,7 @@ This header template is shared across all the pages.
 
 <header class="m-header {{#if background}}with-picture{{/if}} js-header">
   <div class="m-mobile-topbar" data-animate="fade-down">
-    <button class="m-icon-button in-mobile-topbar js-open-menu" aria-label="{{t " Open menu"}}">
+    <button class="m-icon-button in-mobile-topbar js-open-menu" aria-label="{{t "Open menu"}}">
       <span class="icon-menu" aria-hidden="true"></span>
     </button>
     {{#if @site.logo}}
@@ -20,19 +20,19 @@ This header template is shared across all the pages.
     </a>
     {{/if}}
     <button class="m-icon-button in-mobile-topbar {{^if @custom.enable_native_search}}js-open-search{{/if}}" {{#if
-      @custom.enable_native_search}}data-ghost-search{{/if}} aria-label="{{t " Open search"}}">
+      @custom.enable_native_search}}data-ghost-search{{/if}} aria-label="{{t "Open search"}}">
       <span class="icon-search" aria-hidden="true"></span>
     </button>
   </div>
 
   <div class="m-menu js-menu">
-    <button class="m-icon-button outlined as-close-menu js-close-menu" aria-label="{{t " Close menu"}}">
+    <button class="m-icon-button outlined as-close-menu js-close-menu" aria-label="{{t "Close menu"}}">
       <span class="icon-close"></span>
     </button>
     <div class="m-menu__main" data-animate="fade-down">
       <div class="l-wrapper">
         <div class="m-nav js-main-nav">
-          <nav class="m-nav__left js-main-nav-right" role="navigation" aria-label="{{t " Main menu"}}">
+          <nav class="m-nav__left js-main-nav-left" role="navigation" aria-label="{{t "Main menu"}}">
             <ul>
               {{#if @site.logo}}
               <li class="only-desktop">
@@ -122,7 +122,7 @@ This header template is shared across all the pages.
           </nav>
           <div class="m-nav__right">
             <button class="m-icon-button in-menu-main {{^if @custom.enable_native_search}}js-open-search{{/if}}" {{#if
-              @custom.enable_native_search}}data-ghost-search{{/if}} aria-label="{{t " Open search"}}">
+              @custom.enable_native_search}}data-ghost-search{{/if}} aria-label="{{t "Open search"}}">
               <span class="icon-search" aria-hidden="true"></span>
             </button>
           </div>
