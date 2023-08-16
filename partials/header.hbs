@@ -8,14 +8,14 @@ This header template is shared across all the pages.
       <span class="icon-menu" aria-hidden="true"></span>
     </button>
     {{#if @site.logo}}
-    <a href="{{@site.url}}" class="m-logo in-mobile-topbar">
+    <a href="https://jodibooks.com/" class="m-logo in-mobile-topbar">
       <img src="{{@site.logo}}" alt="{{@site.title}}" class="{{#if @custom.dark_mode_logo}}m-logo__image-light{{/if}}">
       {{#if @custom.dark_mode_logo}}
       <img src="{{@custom.dark_mode_logo}}" alt="{{@site.title}}" class="m-logo__image-dark">
       {{/if}}
     </a>
     {{else}}
-    <a href="{{@site.url}}" class="m-site-name in-mobile-topbar">
+    <a href="https://jodibooks.com/" class="m-site-name in-mobile-topbar">
       {{@site.title}}
     </a>
     {{/if}}
@@ -36,7 +36,7 @@ This header template is shared across all the pages.
             <ul>
               {{#if @site.logo}}
               <li class="only-desktop">
-                <a href="{{@site.url}}" class="m-logo">
+                <a href="https://jodibooks.com/" class="m-logo">
                   <img src="{{@site.logo}}" alt="{{@site.title}}"
                     class="{{#if @custom.dark_mode_logo}}m-logo__image-light{{/if}}">
                   {{#if @custom.dark_mode_logo}}
@@ -46,7 +46,7 @@ This header template is shared across all the pages.
               </li>
               {{else}}
               <li class="only-desktop">
-                <a href="{{@site.url}}" class="m-site-name in-desktop-menu">
+                <a href="https://jodibooks.com/" class="m-site-name in-desktop-menu">
                   {{@site.title}}
                 </a>
               </li>
@@ -118,7 +118,6 @@ This header template is shared across all the pages.
                 </div>
               </li>
             </ul>
-            <a href="https://jodibooks.com/" class="m-button primary">jodiBooks.com</a>
           </nav>
           <div class="m-nav__right">
             <button class="m-icon-button in-menu-main {{^if @custom.enable_native_search}}js-open-search{{/if}}" {{#if
