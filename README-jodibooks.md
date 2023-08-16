@@ -2,9 +2,9 @@
 
 Source: <https://github.com/eddiesigner/liebling/wiki/Theme-development-with-Docker>
 
-## Alway
+## Always
 
-1. Open a shell or command window to `devops/environment/blog-theme/liebling/src`
+1. Open a shell, terminal or command window to `liebling-blog-theme/src`
 
 ## Install / prepare
 
@@ -13,8 +13,9 @@ Source: <https://github.com/eddiesigner/liebling/wiki/Theme-development-with-Doc
 
 ## Develop
 
-1. Run `yarn docker-watch`
-2. Develop theme using vscode or other editor
+1. Start docker (if on Windows)
+2. Run `yarn docker-watch`
+3. Develop theme using vscode or other editor
 
 ## Create production theme
 
