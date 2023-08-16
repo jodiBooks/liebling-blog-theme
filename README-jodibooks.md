@@ -8,8 +8,9 @@ Source: <https://github.com/eddiesigner/liebling/wiki/Theme-development-with-Doc
 
 ## Install / prepare
 
-1. Run `yarn install`
-2. Run `yarn get-database`
+1. `cd src`
+2. `yarn install`
+3. Run `yarn get-database` (only if you're going to develop with docker)
 
 ## Develop (doesn't work)
 
@@ -24,12 +25,12 @@ Source: <https://github.com/eddiesigner/liebling/wiki/Theme-development-with-Doc
 1. Develop theme using vscode or other editor
 2. Create production "build" and upload to `blog.acc.jodibooks.com/ghost`, see below
 
-## Create production theme
+## Create production theme and upload to Ghost
 
 1. OS dependent
     1. Linux: Run `yarn production`
     2. Windows: Run `yarn build`, `cd ..` and `7z a -xr'!.git' -xr'!src' -x'!liebling.zip' liebling.zip *`
-2. Upload zip file <https://acc-blog.jodibooks.com/ghost/#/settings/design/change-theme>
+2. Upload zip file
     Settings (bottom left corner) --> Design (settings screen) --> Change Theme (bottom left corner) --> Upload theme (button top)
 
 ## Possible issues
